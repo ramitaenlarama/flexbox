@@ -1,0 +1,24 @@
+.flex-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-item{
+    margin: 20px;
+    background-color: #333;
+    width: 30%;
+    font-family: 'arial';
+    color: white;
+    padding: 5px;
+}
+
+button{
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+}
+
+ul{
+    display: inline-block;
+}

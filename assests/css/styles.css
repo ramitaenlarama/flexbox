@@ -1,41 +1,40 @@
 .flex-container{
-    height: 100vh;
+    height: 80vh;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    border: 2px solid #333;
+    background-color: #ffd258;
 
 }
 
-
 .flex-item{
-    flex-basis: auto;
-    flex-grow: 1;
     background-color: #333;
-    font-size: 10px;
+    font-size: 50px;
     font-family: 'arial';
     color: white;
     padding-top: 5px;
     padding-bottom: 5px;
     text-align: center;
-    flex-shrink: 1;
 }
 
 
 .hamburguesa{
     order:1;
-    background-color: green;
-    flex-grow:1;
-    flex-shrink: 3;
+    background-color: #ff006e;
 }
 
 
 .arroz{
     order:2;
-    background-color: red;
+    background-color: #8338ec;
 }
 
 .arrollado{
     order:3;
+    background-color: #3a86ff;
+
+
 }
